@@ -1,0 +1,16 @@
+1.develop and test java db accessing programme
+2.Read oracle java EE https://docs.oracle.com/javaee/6/tutorial/doc/bnaaw.html
+and java SE document https://docs.oracle.com/javase/
+
+The Java EE specification defines the following Java EE components:
+
+Application clients and applets are components that run on the client.
+
+Java Servlet, JavaServer Faces, and JavaServer Pages (JSP) technology components are web components that run on the server.
+
+Enterprise JavaBeans (EJB) components (enterprise beans) are business components that run on the server.
+
+Java EE components are written in the Java programming language and are compiled in the same way as any program in the language. 
+The differences between Java EE components and ¡§standard¡¨ Java classes are that Java EE components are assembled into 
+a Java EE application, they are verified to be well formed and in compliance with the Java EE specification, 
+and they are deployed to production, where they are run and managed by the Java EE server.
