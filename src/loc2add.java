@@ -30,7 +30,7 @@ class location{
 	public String address;
 	public Date create;
 	public Date update;
-	public ArrayList<String> addarray=new ArrayList<String>(10);;
+	public ArrayList<String> addarray=new ArrayList<String>(10);
 	
 	public location(String id, Double latitude, Double longitude){
 	 this.device_id = id;
@@ -96,8 +96,7 @@ public class loc2add {
 		System.out.println("Hi");
 		NominatimReverseGeocodingJAPI nominatim1 = new NominatimReverseGeocodingJAPI(18);
 		nominatim1.getAdress(22.3185855159517, 114.178212642094);
-		//testing
-		
+//		testing
 //		getOsmId
 //		getOsmType
 //		getLod
@@ -113,21 +112,7 @@ public class loc2add {
 //		
 		System.out.println(nominatim1.getAdress(22.2942782863814d, 114.240952603959d).getDisplayName());
 		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getDisplayName());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getSuburb());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getState());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getCountry());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getCounty());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getOsmId());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getOsmType());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getPostcode());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getRoad());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getCountry());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getOsmType());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getCountryCode());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).hashCode());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getCity());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getOsmType());
-//		System.out.println(nominatim1.getAdress(22.3185855159517d, 114.178212642094d).getOsmType());
+
 		
 		//required format : number, road, district, country
 		
